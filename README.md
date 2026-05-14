@@ -98,7 +98,7 @@ Web application developed through university project iterations, focused on coop
 - GitHub: [Amar-Handanagic](https://github.com/Amar-Handanagic)
 - LinkedIn: Add your LinkedIn profile link here
 - Portfolio Website: Add your website link here
-- Email: Add your email address here
+- Email: amar.x789@gmail.com
 
 ---
 
