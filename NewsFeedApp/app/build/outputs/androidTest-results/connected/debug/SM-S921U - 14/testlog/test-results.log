@@ -1,0 +1,421 @@
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+etf.ri.rma.newsfeedapp.TestS3:
+INSTRUMENTATION_STATUS: test=testIfCacheingWorks
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=testIfCacheingWorks
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=testSimilarSaIzuzetkom
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=testSimilarSaIzuzetkom
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=testIfCacheingWorks2
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Treba biti upucen 1 zahtjev
+at org.junit.Assert.fail(Assert.java:89)
+at kotlin.test.junit.JUnitAsserter.fail(JUnitSupport.kt:56)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:694)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:704)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.AssertionsKt__AssertionsKt.assertTrue(Assertions.kt:44)
+at kotlin.test.AssertionsKt.assertTrue(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3$testIfCacheingWorks2$1.invokeSuspend(TestS3.kt:154)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.test.TestDispatcher.processEvent$kotlinx_coroutines_test(TestDispatcher.kt:28)
+at kotlinx.coroutines.test.TestCoroutineScheduler.tryRunNextTaskUnless$kotlinx_coroutines_test(TestCoroutineScheduler.kt:103)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTest$2$1$workRunner$1.invokeSuspend(TestBuilders.kt:320)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:280)
+at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersJvmKt.createTestResult(TestBuildersJvm.kt:13)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:308)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:166)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0$default(TestBuilders.kt:158)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0$default(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3.testIfCacheingWorks2(TestS3.kt:143)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testIfCacheingWorks2(etf.ri.rma.newsfeedapp.TestS3):
+java.lang.AssertionError: Treba biti upucen 1 zahtjev
+at org.junit.Assert.fail(Assert.java:89)
+at kotlin.test.junit.JUnitAsserter.fail(JUnitSupport.kt:56)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:694)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:704)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.AssertionsKt__AssertionsKt.assertTrue(Assertions.kt:44)
+at kotlin.test.AssertionsKt.assertTrue(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3$testIfCacheingWorks2$1.invokeSuspend(TestS3.kt:154)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.test.TestDispatcher.processEvent$kotlinx_coroutines_test(TestDispatcher.kt:28)
+at kotlinx.coroutines.test.TestCoroutineScheduler.tryRunNextTaskUnless$kotlinx_coroutines_test(TestCoroutineScheduler.kt:103)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTest$2$1$workRunner$1.invokeSuspend(TestBuilders.kt:320)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:280)
+at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersJvmKt.createTestResult(TestBuildersJvm.kt:13)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:308)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:166)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0$default(TestBuilders.kt:158)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0$default(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3.testIfCacheingWorks2(TestS3.kt:143)
+
+INSTRUMENTATION_STATUS: test=testIfCacheingWorks2
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=testSimilarStories
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=testSimilarStories
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=getTopNewsPolitikaDeepCompare
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Lista treba imati tacno 3 vrijednosti
+at org.junit.Assert.fail(Assert.java:89)
+at kotlin.test.junit.JUnitAsserter.fail(JUnitSupport.kt:56)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:694)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:704)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.AssertionsKt__AssertionsKt.assertTrue(Assertions.kt:44)
+at kotlin.test.AssertionsKt.assertTrue(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3$getTopNewsPolitikaDeepCompare$1.invokeSuspend(TestS3.kt:95)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.test.TestDispatcher.processEvent$kotlinx_coroutines_test(TestDispatcher.kt:28)
+at kotlinx.coroutines.test.TestCoroutineScheduler.tryRunNextTaskUnless$kotlinx_coroutines_test(TestCoroutineScheduler.kt:103)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTest$2$1$workRunner$1.invokeSuspend(TestBuilders.kt:320)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:280)
+at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersJvmKt.createTestResult(TestBuildersJvm.kt:13)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:308)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:166)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0$default(TestBuilders.kt:158)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0$default(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3.getTopNewsPolitikaDeepCompare(TestS3.kt:85)
+
+INSTRUMENTATION_STATUS: stream=
+Error in getTopNewsPolitikaDeepCompare(etf.ri.rma.newsfeedapp.TestS3):
+java.lang.AssertionError: Lista treba imati tacno 3 vrijednosti
+at org.junit.Assert.fail(Assert.java:89)
+at kotlin.test.junit.JUnitAsserter.fail(JUnitSupport.kt:56)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:694)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:704)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.AssertionsKt__AssertionsKt.assertTrue(Assertions.kt:44)
+at kotlin.test.AssertionsKt.assertTrue(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3$getTopNewsPolitikaDeepCompare$1.invokeSuspend(TestS3.kt:95)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.test.TestDispatcher.processEvent$kotlinx_coroutines_test(TestDispatcher.kt:28)
+at kotlinx.coroutines.test.TestCoroutineScheduler.tryRunNextTaskUnless$kotlinx_coroutines_test(TestCoroutineScheduler.kt:103)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTest$2$1$workRunner$1.invokeSuspend(TestBuilders.kt:320)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:280)
+at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersJvmKt.createTestResult(TestBuildersJvm.kt:13)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:308)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:166)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0$default(TestBuilders.kt:158)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0$default(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3.getTopNewsPolitikaDeepCompare(TestS3.kt:85)
+
+INSTRUMENTATION_STATUS: test=getTopNewsPolitikaDeepCompare
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=getTopNewsPolitika
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Expected value to be true.
+at org.junit.Assert.fail(Assert.java:89)
+at kotlin.test.junit.JUnitAsserter.fail(JUnitSupport.kt:56)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:694)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:704)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.AssertionsKt__AssertionsKt.assertTrue(Assertions.kt:44)
+at kotlin.test.AssertionsKt.assertTrue(Unknown Source:1)
+at kotlin.test.AssertionsKt__AssertionsKt.assertTrue$default(Assertions.kt:42)
+at kotlin.test.AssertionsKt.assertTrue$default(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3$getTopNewsPolitika$1.invokeSuspend(TestS3.kt:68)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.test.TestDispatcher.processEvent$kotlinx_coroutines_test(TestDispatcher.kt:28)
+at kotlinx.coroutines.test.TestCoroutineScheduler.tryRunNextTaskUnless$kotlinx_coroutines_test(TestCoroutineScheduler.kt:103)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTest$2$1$workRunner$1.invokeSuspend(TestBuilders.kt:320)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:280)
+at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersJvmKt.createTestResult(TestBuildersJvm.kt:13)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:308)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:166)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0$default(TestBuilders.kt:158)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0$default(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3.getTopNewsPolitika(TestS3.kt:57)
+
+INSTRUMENTATION_STATUS: stream=
+Error in getTopNewsPolitika(etf.ri.rma.newsfeedapp.TestS3):
+java.lang.AssertionError: Expected value to be true.
+at org.junit.Assert.fail(Assert.java:89)
+at kotlin.test.junit.JUnitAsserter.fail(JUnitSupport.kt:56)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:694)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:704)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.AssertionsKt__AssertionsKt.assertTrue(Assertions.kt:44)
+at kotlin.test.AssertionsKt.assertTrue(Unknown Source:1)
+at kotlin.test.AssertionsKt__AssertionsKt.assertTrue$default(Assertions.kt:42)
+at kotlin.test.AssertionsKt.assertTrue$default(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3$getTopNewsPolitika$1.invokeSuspend(TestS3.kt:68)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.test.TestDispatcher.processEvent$kotlinx_coroutines_test(TestDispatcher.kt:28)
+at kotlinx.coroutines.test.TestCoroutineScheduler.tryRunNextTaskUnless$kotlinx_coroutines_test(TestCoroutineScheduler.kt:103)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTest$2$1$workRunner$1.invokeSuspend(TestBuilders.kt:320)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:280)
+at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersJvmKt.createTestResult(TestBuildersJvm.kt:13)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:308)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:166)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0$default(TestBuilders.kt:158)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0$default(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3.getTopNewsPolitika(TestS3.kt:57)
+
+INSTRUMENTATION_STATUS: test=getTopNewsPolitika
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=testImagga
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=testImagga
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=testImaggaFailed
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=etf.ri.rma.newsfeedapp.TestS3
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=testImaggaFailed
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 15.408
+There were 3 failures:
+1) testIfCacheingWorks2(etf.ri.rma.newsfeedapp.TestS3)
+java.lang.AssertionError: Treba biti upucen 1 zahtjev
+at org.junit.Assert.fail(Assert.java:89)
+at kotlin.test.junit.JUnitAsserter.fail(JUnitSupport.kt:56)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:694)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:704)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.AssertionsKt__AssertionsKt.assertTrue(Assertions.kt:44)
+at kotlin.test.AssertionsKt.assertTrue(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3$testIfCacheingWorks2$1.invokeSuspend(TestS3.kt:154)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.test.TestDispatcher.processEvent$kotlinx_coroutines_test(TestDispatcher.kt:28)
+at kotlinx.coroutines.test.TestCoroutineScheduler.tryRunNextTaskUnless$kotlinx_coroutines_test(TestCoroutineScheduler.kt:103)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTest$2$1$workRunner$1.invokeSuspend(TestBuilders.kt:320)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:280)
+at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersJvmKt.createTestResult(TestBuildersJvm.kt:13)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:308)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:166)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0$default(TestBuilders.kt:158)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0$default(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3.testIfCacheingWorks2(TestS3.kt:143)
+2) getTopNewsPolitikaDeepCompare(etf.ri.rma.newsfeedapp.TestS3)
+java.lang.AssertionError: Lista treba imati tacno 3 vrijednosti
+at org.junit.Assert.fail(Assert.java:89)
+at kotlin.test.junit.JUnitAsserter.fail(JUnitSupport.kt:56)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:694)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:704)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.AssertionsKt__AssertionsKt.assertTrue(Assertions.kt:44)
+at kotlin.test.AssertionsKt.assertTrue(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3$getTopNewsPolitikaDeepCompare$1.invokeSuspend(TestS3.kt:95)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.test.TestDispatcher.processEvent$kotlinx_coroutines_test(TestDispatcher.kt:28)
+at kotlinx.coroutines.test.TestCoroutineScheduler.tryRunNextTaskUnless$kotlinx_coroutines_test(TestCoroutineScheduler.kt:103)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTest$2$1$workRunner$1.invokeSuspend(TestBuilders.kt:320)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:280)
+at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersJvmKt.createTestResult(TestBuildersJvm.kt:13)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:308)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:166)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0$default(TestBuilders.kt:158)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0$default(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3.getTopNewsPolitikaDeepCompare(TestS3.kt:85)
+3) getTopNewsPolitika(etf.ri.rma.newsfeedapp.TestS3)
+java.lang.AssertionError: Expected value to be true.
+at org.junit.Assert.fail(Assert.java:89)
+at kotlin.test.junit.JUnitAsserter.fail(JUnitSupport.kt:56)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:694)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:704)
+at kotlin.test.junit.JUnitAsserter.assertTrue(JUnitSupport.kt:30)
+at kotlin.test.AssertionsKt__AssertionsKt.assertTrue(Assertions.kt:44)
+at kotlin.test.AssertionsKt.assertTrue(Unknown Source:1)
+at kotlin.test.AssertionsKt__AssertionsKt.assertTrue$default(Assertions.kt:42)
+at kotlin.test.AssertionsKt.assertTrue$default(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3$getTopNewsPolitika$1.invokeSuspend(TestS3.kt:68)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.test.TestDispatcher.processEvent$kotlinx_coroutines_test(TestDispatcher.kt:28)
+at kotlinx.coroutines.test.TestCoroutineScheduler.tryRunNextTaskUnless$kotlinx_coroutines_test(TestCoroutineScheduler.kt:103)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTest$2$1$workRunner$1.invokeSuspend(TestBuilders.kt:320)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:280)
+at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersJvmKt.createTestResult(TestBuildersJvm.kt:13)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:308)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:166)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source:1)
+at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0$default(TestBuilders.kt:158)
+at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0$default(Unknown Source:1)
+at etf.ri.rma.newsfeedapp.TestS3.getTopNewsPolitika(TestS3.kt:57)
+
+FAILURES!!!
+Tests run: 8,  Failures: 3
+
+
+INSTRUMENTATION_CODE: -1
+

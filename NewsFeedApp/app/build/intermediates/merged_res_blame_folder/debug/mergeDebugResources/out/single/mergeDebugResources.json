@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/drawable-xxhdpi_news.jpg.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/drawable-xxhdpi/news.jpg"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/xml_backup_rules.xml.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/drawable_ic_launcher_background.xml.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/drawable-mdpi_news.jpg.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/drawable-mdpi/news.jpg"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/drawable-hdpi_news.jpg.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/drawable-hdpi/news.jpg"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/drawable-xhdpi_news.jpg.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/drawable-xhdpi/news.jpg"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/drawable-xxxhdpi_news.jpg.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/drawable-xxxhdpi/news.jpg"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/drawable_news.jpg.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/drawable/news.jpg"
+    },
+    {
+        "merged": "etf.ri.rma.newsfeedapp-debug-59:/xml_data_extraction_rules.xml.flat",
+        "source": "etf.ri.rma.newsfeedapp-main-61:/xml/data_extraction_rules.xml"
+    }
+]
