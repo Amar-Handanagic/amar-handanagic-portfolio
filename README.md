@@ -21,6 +21,15 @@ I am interested in full-stack software development, web and mobile applications,
 
 ## Featured Projects
 
+### Provjereno.net
+
+**Provjereno.net** is a web-based news platform I worked on as a freelance web development project for a client. My work included user-facing pages, article layouts, categories, search functionality, and an admin area for managing content.
+
+Live website: https://provjereno.net
+
+Note: Some parts of the project are client-based/private, so not all source code is publicly available on GitHub.
+
+
 ### SmartLib.ba
 Library Information System developed as a university project.  
 Main features include catalog management, reservations, borrowing, membership management, and administration of library resources.
